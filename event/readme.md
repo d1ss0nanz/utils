@@ -29,8 +29,8 @@ int main(void) {
     
     //initialize event
     event_init(&my_event);
-    
-    //initialize zero or more event handers
+ CB    
+    //initialize zero or more event handlers
     event_handler_init(&my_handler, my_handler_fun);
     
     //and subscribe them to events
